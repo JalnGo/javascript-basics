@@ -1,7 +1,7 @@
 var name = "Jason";
 // var name = "Mary";
 
-if (name === "Jason") {
+if (name === "Jason") {             // MEMORIZE
   console.log("You are Jason");
 }
 

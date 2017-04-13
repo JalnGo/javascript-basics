@@ -2,16 +2,16 @@
 // 1) at least 6 years old
 // 2) at least 48 inches tall
 
-var age = 6;
+var age = 5;
 var height = 49;
 
 if (age > 5) {
     console.log("Yea, no car seat");
-} else if (weight > 48) {
+} else if (height > 48) {
     console.log("Yea, no car seat");
 } 
 
-//if (age > 5 || height > 48) {
+//if (age > 5 || height > 48) {         // MEMORIZE
 //    console.log("Yea, no car seat");
 //}
 
