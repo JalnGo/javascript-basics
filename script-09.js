@@ -1,12 +1,18 @@
+// A child is not required to be in a car seat if either of the following are true:
+// 1) at least 6 years old
+// 2) at least 48 inches tall
 
-if (true && true) {
-  console.log("true && true");
-}
+var age = 6;
+var height = 49;
 
-// if (true && false) {
-//   console.log("true && false")
-// }
+if (age > 5) {
+    console.log("Yea, no car seat");
+} else if (weight > 48) {
+    console.log("Yea, no car seat");
+} 
 
-// if (false && false) {
-//   console.log("false && false");
-// }
+//if (age > 5 || height > 48) {
+//    console.log("Yea, no car seat");
+//}
+
+// Play around with different values...
