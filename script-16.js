@@ -1,6 +1,6 @@
 // Arrays - lists of things
 
-var list = [ "dog", "cat", "horse" ];   // MEMORIZE
+var list = [ "dog", "cat", "horse" ];   // KEY POINT
 
 console.log(list[0]);   // should display which animal?
 console.log(list[1]);   // should display which animal?

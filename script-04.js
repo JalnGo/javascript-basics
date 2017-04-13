@@ -21,7 +21,7 @@ console.log(`I am ${age} years old`);
 
 // Encapsulate the repeating logic into a function to avoid typing
 // things over and over...
-// function greeting(firstName, age) {          // MEMORIZE
+// function greeting(firstName, age) {          // KEY POINT
 //   console.log(`My name is ${firstName}`);
 //   console.log(`I am ${age} years old`);
 // }

@@ -1,7 +1,7 @@
 var name = "Jason";
 // var name = "Mary";
 
-if (name === "Jason") {             // MEMORIZE
+if (name === "Jason") {             // KEY POINT
   console.log("You are Jason");
 }
 

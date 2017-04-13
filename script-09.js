@@ -11,7 +11,7 @@ if (age > 5) {
     console.log("Yea, no car seat");
 } 
 
-//if (age > 5 || height > 48) {         // MEMORIZE
+//if (age > 5 || height > 48) {         // KEY POINT
 //    console.log("Yea, no car seat");
 //}
 

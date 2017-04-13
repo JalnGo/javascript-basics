@@ -10,6 +10,6 @@ if (number > 9) {
     }
 }
 
-//if (number > 9 && number < 20) {      // MEMORIZE
+//if (number > 9 && number < 20) {      // KEY POINT
 //    console.log("the number is between 1 and 20");
 //}
