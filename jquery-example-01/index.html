@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Load JQuery from CDN</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Page With JQuery</h1>
+    <script>
+        $(document).ready(onPageReady);     // MEMORIZE
+
+        function onPageReady() {
+            console.log("jquery is loaded");
+        }
+    </script>
+</body>
+</html>
