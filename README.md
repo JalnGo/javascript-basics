@@ -1,15 +1,15 @@
-# Basic Javascript
+# Basic JavaScript
 
 ## Overview
 
 The goal of these sample scripts is to provide the student with a high level
-overview of foundational Javascript concepts.  Mastery of Javascript is not the
+overview of foundational JavaScript concepts.  Mastery of JavaScript is not the
 end goal of these examples.  
 
 After reviewing these samples the student should have an awareness of:
 
-- how to run a Javascript file
-- how to debug a Javascript file
+- how to run a JavaScript file
+- how to debug a JavaScript file
 - commenting code
 - variables
 - "if" statements
@@ -25,13 +25,31 @@ After reviewing these samples the student should have an awareness of:
 Exercises have been added to the scripts to aid in reinforcing ideas and
 concepts.
 
+## Required Software
+
+Install the following:
+
+- Git
+  - Download from https://git-scm.com/downloads
+- Node.js
+  - Download from https://nodejs.org/en/download/
+- serve package
+  - npm install -g serve
+- Atom text editor
+  - Download from https://atom.io/s
+- Additional Packages for Atom text editor
+  - atom-runner
+  - node-debugger
+- Clone this repository
+  - git clone https://github.com/hakkoda/javascript-basics.git
+
 ## Questions To Think About
 
-What are the different ways a Javascript file can be ran?
- 
-What are some debugging and troubleshooting strategies for Javascript code?
+What are the different ways a JavaScript file can be ran?
 
-How do you comment your Javascript code?
+What are some debugging and troubleshooting strategies for JavaScript code?
+
+How do you comment your JavaScript code?
 
 What is a variable and how can a variable be declared?
 
