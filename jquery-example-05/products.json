@@ -1,0 +1,16 @@
+{
+    "products": [
+        {
+            "name": "book",
+            "price": 10.99
+        },
+        {
+            "name": "shirt",
+            "price": 12.99
+        },
+        {
+            "name": "hat",
+            "price": 15.99
+        }
+    ]
+}

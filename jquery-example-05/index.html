@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>AJAX Example</h1>
+    <textarea id="output" cols="30" rows="10"></textarea>
+    <br>
+    <br>
+    <button id="btn-get">GET DATA</button>
+    <button id="btn-clear">CLEAR</button>
+    <script>
+        $(function() {
+            var products = "";
+            
+            $("#btn-get").click(function() {
+                $.ajax({
+                    type: "GET",
+                    url: "products.json",
+                    dataType: "json",
+                    success: function(data) {
+                        //console.log(data);
+                        //products = JSON.stringify(data);
+                        //console.log(products);
+                        data.products.forEach(function(item, index) {
+                            products += item.name + ": " + item.price + "\n";
+                        });
+                        $("#output").val(products);
+                    },
+                    error: function(data) {
+                        console.log(data);
+                    }
+                });
+            });
+
+            $("#btn-clear").click(function() { 
+                $("#output").val("");
+                products = "";
+            });
+        });
+    </script>
+</body>
+</html>
