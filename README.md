@@ -36,7 +36,7 @@ Install the following:
 - serve package
   - npm install -g serve
 - Atom text editor
-  - Download from https://atom.io/s
+  - Download from https://atom.io/
 - Additional Packages for Atom text editor
   - atom-runner
   - node-debugger
